@@ -1,6 +1,5 @@
-﻿using Arch.Domain.Models;
+﻿using CleanArch.Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.CodeAnalysis;
 
 namespace CleanArch.Infra.Data.Context
 {
