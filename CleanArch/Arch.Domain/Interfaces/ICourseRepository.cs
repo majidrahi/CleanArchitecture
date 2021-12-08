@@ -4,6 +4,6 @@ namespace CleanArch.Domain.Interfaces
 {
     public interface ICourseRepository
     {
-        IEnumerable<Course> GetCourses();
+        Task<IEnumerable<Course>> GetCourses();
     }
 }
